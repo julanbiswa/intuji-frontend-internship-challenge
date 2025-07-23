@@ -450,7 +450,7 @@ position: absolute;
   background-position: center;
   background-repeat: no-repeat;
   width: 550px;
-  height: 700px;
+  height: 600px;
   margin-top: -100px;
 }
 
@@ -458,3 +458,91 @@ position: absolute;
 {
     display: flex;
 }
+
+.features
+{
+    background-color: #C9E7F2;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+
+.featureTxt{
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 90px;
+
+}
+
+.opinion
+{
+    width: 80%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.group117
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.group311
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box1, .box2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    padding: 40px 0 0 20px;
+    border-radius: 10px;
+}
+
+.really
+{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -3%;
+}
+
+
+.ThreeBox
+{
+    display: flex;
+    gap: 20px;
+}
+
+.box3
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* height: 500px; */
+    width: 300px;
+    /* padding: 40px 0 0 20px; */
+    border-radius: 8px;
+}
+
+.subBox1, .subBox2
+{
+    background-color: white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -3%;
+    padding: 35px 30px;
+    border-radius: 8px;
+} 
+
+
