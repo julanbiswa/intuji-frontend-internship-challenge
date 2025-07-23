@@ -105,9 +105,9 @@ ul{
 .rightContent
 {
     width: 500px;
-    height: 450px;
+    height: 563px;
     background-size: cover;
-  background-position: center;
+    overflow: hidden;
   background-repeat: no-repeat;
 }
 
@@ -118,6 +118,7 @@ ul{
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1000;
 }
 
 .dotsGroup
@@ -184,5 +185,276 @@ position: absolute;
 .randomDesign
 {
     position: absolute;
+    background-size: cover;
     right: 0;
+    bottom: -61px;
+    overflow: hidden;
+    height: 145px;
+}
+
+.brandImg
+{
+    width: 130px;
+    height: 25px;
+}
+
+.brandLogoContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F6F8;
+    z-index: 1002;
+    padding: 64px;
+    gap: 36px;
+}
+
+.text
+{
+    font-size: 22px;
+}
+
+.logoGroup
+{
+    display: flex;
+    gap: 15px;
+}
+
+.SectionHeading
+{
+    height: 210px;
+    margin-top: 72px;
+    display: flex;
+    gap: 124px;
+}
+
+.Automated
+{
+    font-size: 55px;
+    line-height: 53px;
+    letter-spacing: -3%;
+    
+}
+
+.group313
+{
+   width: 440px; 
+   display: flex;
+   flex-direction: column;
+   gap: 19px;
+   
+
+}
+
+.lowerTxt
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Testimonial
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 160px;
+    background-color: #C4C4C4;
+    border-radius: 15px;
+    padding: 38px;
+    gap: 18px;
+    position: relative;
+    justify-content: center;
+}
+
+.Wise
+{
+    /* padding-top: -500px; */
+    line-height: 22px;
+    letter-spacing: -2%;
+}
+
+.Group311
+{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    top: -20px;
+    left: 200px;
+    z-index: 1;
+}
+
+.valueProps
+{
+    margin-top: 72px;
+    display: flex;
+    gap: 31px;
+}
+
+.group310
+{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 310px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DBE4E9;
+    border-radius: 15px;
+    gap: 17px;
+    padding: 30px;
+    position: relative;
+
+}
+
+.FileImg
+{
+    width: 50px;
+    height: 45px;
+}
+
+.connect
+{
+    line-height: 34px;
+    letter-spacing: -3%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.indulgence
+{
+    line-height: 26px;
+    letter-spacing: -2%;
+    color: #757095;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    width:260px;
+}
+
+.headnumber
+{
+    position: absolute;
+    font-size: 22px;
+    top: 21px;
+    left: 22px;
+}
+
+.sectionsContents{
+    margin-top: 120px;
+}
+
+.group4362
+{
+    background-image: url('images/Group\ 4362.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 400px;
+  margin-left: -22px;
+  padding: 0;
+  
+}
+
+.sectionsContents
+{
+    display: flex;
+}
+
+.Content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 300px;
+    width: 550px;
+}
+
+
+
+.group237, .group238, .group152
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: #64607D;
+    gap:10px;
+}
+
+.TikTxt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.why
+{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.track
+{
+    line-height: 40px;
+    letter-spacing: -3%;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.indulgence1{
+    line-height: 26px;
+    letter-spacing: -2%;
+    color: #757095;
+    font-weight: 500;
+    font-size: 14px;
+    /* text-align: center; */
+    width:360px;
+}
+
+.Content3
+{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    
+}
+
+.wise2
+{
+   width: 350px;
+   padding: 20px;
+    background-color: #C4C4C4;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.Group3111
+{
+    position: absolute;
+    top:-23px;
+    height: 35x;
+}
+
+.leftImage
+{
+    background-image: url('images/leftImage.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 700px;
+  margin-top: -100px;
+}
+
+.sectionContents2
+{
+    display: flex;
 }
