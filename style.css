@@ -1,0 +1,188 @@
+:root{
+    --primary: #3734A9;
+}
+
+/* This is for manrop font */
+.manrope {
+  font-family: 'Manrope', sans-serif;
+}
+.manrope-normal { font-weight: 400; }
+.manrope-medium { font-weight: 500; }
+.manrope-semibold { font-weight: 600; }
+.manrope-bold { font-weight: 700; }
+.manrope-extrabold { font-weight: 800; }
+
+/* This is for roboto font */
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.roboto-normal { font-weight: 400; }
+.roboto-medium { font-weight: 500; }
+.roboto-bold { font-weight: 700; }
+.roboto-extrabold { font-weight: 800; } /* Note: Roboto doesn't officially have 800, but browser will simulate it */
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+
+.defaultMargin{
+    margin:0 126px;
+}
+
+header
+{
+    margin: 0 0 !important;
+    font-family: 'manrop', sans-serif, roboto;
+    background-image: url('images/Rectangle\ 158.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 640px;
+
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    padding:20px 0 0px 0;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    max-width:320px ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.StartFree
+{
+    background-color: var(--primary);
+    padding:20 24px;
+    width: 137px;
+    height: 52px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.sign-in{
+    background-color: transparent;
+    border: none;
+    padding-right: 30px;
+}
+
+.content
+{
+    display: flex;
+}
+
+.leftContent
+{
+    height: 350px;
+    width: 521px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bigTxt
+{
+    line-height: 50px;
+    /* word-spacing: 3%; */
+    font-size: 45px;
+}
+
+.rightContent
+{
+    width: 500px;
+    height: 450px;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.handImg
+{
+    width:300px;
+    height: 580px;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dotsGroup
+{
+    position: absolute;
+    position: absolute;   
+  top: 490px;
+  left: -15px;        
+  width: 100px;   
+}
+
+.buttons
+{
+    display: flex;
+    gap: 50px;
+}
+
+.GetStarted
+{
+    background-color: var(--primary);
+    height: 60px;
+    width: 160px;
+    border-radius: 45px;
+    color: white;
+    border: none;
+
+}
+
+.anotherBtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--primary);
+}
+
+.RegisterService
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.firstTik
+{
+    display: flex;
+    gap: 7px;
+}
+.secondTik
+{
+    display: flex;
+    gap: 7px;
+}
+
+.birdsGroup
+{
+position: absolute;  
+  top: 100px;
+  left: 1200px;        
+  width: 100px; 
+}
+
+.randomDesign
+{
+    position: absolute;
+    right: 0;
+}
