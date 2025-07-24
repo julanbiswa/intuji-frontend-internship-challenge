@@ -1000,3 +1000,117 @@ ul
   text-align: center;
   margin-top: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .defaultMargin {
+    margin: 0 15px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .heroSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftContent,
+  .rightContent,
+  .group310,
+  .group313,
+  .group117,
+  .box1,
+  .box2,
+  .box3,
+  .partiality,
+  .testimony {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  .heroSection img,
+  .handImg,
+  .wise2 img,
+  .bestTxtImg img,
+  .BlogCards img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .ThreeBox,
+  .group172,
+  .twogroup,
+  .valueProps,
+  .sectionsContents,
+  .sectionContents2,
+  .textAndLogo,
+  .textAndImg,
+  .bestTxtImg,
+  .logoGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .cta .btn {
+    margin-top: 10px;
+  }
+
+  .footer .group172 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .BlogCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .BlogCards .card {
+    width: 100% !important;
+  }
+
+  .discover {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .quoteMark,
+  .Group311,
+  .Group3111,
+  .group3211 {
+    display: none; /* Hide decorative extras on mobile */
+  }
+
+  .footer p,
+  .footer a {
+    text-align: center;
+  }
+
+  .sectionHeading h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
