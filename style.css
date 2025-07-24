@@ -643,3 +643,83 @@ ul {
     position: absolute;
     right: 0px;
 }
+
+.BlogsTxt
+{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.bestTxtImg
+{
+    display: flex;
+    gap: 150px;
+}
+
+.bestTxt
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+    justify-content: center;
+    /* gap: 4rem; */
+}
+
+.practice
+{
+    font-weight: 700;
+}
+
+.InDesign
+{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.bestImg
+{
+    height: 220px;
+    width: 390px;
+    background-image: url("images/Rectangle 155.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.BlogCards
+{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.partiality
+{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+
+.partialityTxt
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.img1
+{
+   height: 170px;
+    width: 315px; 
+        margin-left: -10px;
+
+}
