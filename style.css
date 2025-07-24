@@ -1,5 +1,6 @@
 :root {
     --primary: #3734A9;
+    --Accent: #FF7F5C;
 }
 
 /* This is for manrop font */
@@ -720,6 +721,108 @@ ul {
 {
    height: 170px;
     width: 315px; 
-        margin-left: -10px;
+    margin-left: -10px;
+}
 
+.faqTxt
+{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    width: 420px;
+    margin-bottom: 45px;
+    margin-top: 70px;
+}
+
+.group337
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.group332
+{
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.txtAndPlus
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boldTxt
+{
+    font-weight: 700;
+}
+
+.group333, .group334, .group335, .group336
+{
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boldTxt
+{
+       font-weight: 700;
+       font-size: 20px;
+}
+
+.plus
+{
+    font-size: 35px;
+}
+
+.twogroup
+{
+    display: flex;
+    gap: 30px;
+}
+
+.group351
+{
+    width: 35%;
+    border: 1px solid #CFCFCF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.vector355
+{
+    height: 70px;
+    margin:25px 0 20px 0;
+}
+
+.semiboldTxt
+{
+    font-weight: 600;
+    text-align: center;
+}
+
+.DirectMailBtn
+{
+    background-color: var(--Accent);
+    border: none;
+    color: white;
+    height: 60px;
+    position: relative;
+    top: 40px;
 }
